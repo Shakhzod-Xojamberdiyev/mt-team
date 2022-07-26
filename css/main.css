@@ -7,7 +7,11 @@
   /* --main-font-weight : 400; */
   /* --main-line-height : 1.5; */
 }
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: 'Livvic';
   font-style: normal;
@@ -62,7 +66,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Livvic", "Arial", sans-serif;
+  font-family: "Livvic" , "Arial" , sans-serif;
 }
 
 /* VISUALLY-HIDDEN */
@@ -92,3 +96,118 @@ body {
 .site-main {
   flex-grow: 1;
 }
+
+/* Site header start */
+.site-header {
+  background: #014E56;
+}
+.site-header__inner {
+  display: flex;
+  padding-top: 77px;
+  align-items: center;
+}
+.site-header__logo {
+  margin-right: 80px;
+}
+.site-header__list {
+  display: flex;
+  list-style: none;
+}
+.site-header__item {
+  margin-right: 40px;
+}
+.site-header__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+.site-header__link:hover{
+  color: #f67e7e;
+}
+.site-header__btn{
+  margin-left: auto;
+  padding: 9px 33px;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+.site-header__btn:hover{
+  background: #fff;
+  border: 2px solid #fff;
+  color: #002529;
+}
+/* Site header end */
+
+/*  Hero section start  */
+.hero {
+  padding-top: 133px;
+  background: #014E56;
+}
+.hero__title-wrapper {
+  display: flex;
+  padding-bottom: 250px;
+}
+.hero__text {
+  position: relative;
+  width: 635px;
+}
+.hero__text::before{
+  position: absolute;
+  top: 0%;
+  left: -41.5%;
+  width: 200px;
+  height: 200px;
+  content: "";
+  background-image: url("../images/header-ciricle.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero__text h1{
+  margin: 0;
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: #fff;
+}
+.hero__text span{
+  color:#F67E7E;
+}
+.hero__title-box {
+  position: relative;
+  width: 445px;
+}
+.hero__title-box p{
+  padding-top: 79px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+.hero__title-box::before{
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  border-top: 4px solid #79C8C7;
+}
+.hero__title-box::after{
+  position: absolute;
+  top: 171%;
+  left: 19%;
+  width: 358px;
+  height: 100px;
+  content: "";
+  background-image: url("../images/header-bottom-ciricle.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*  Hero section end  */
