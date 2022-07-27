@@ -1,0 +1,134 @@
+.mett {
+    padding-top: 140px;
+    padding-bottom: 168px;
+    background: #004047;
+}
+.mett__title-wrapper {
+}
+.mett__title-wrapper h2{
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+.mett__wrapper{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mett__box{
+    position: relative;
+}
+.mett__linkk{
+    position: absolute;
+    bottom: 16px;
+    left: 142px;
+    width: 56px;
+    height: 56px;
+    display:inline-block;
+    background-color: #F67E7E;
+    border-radius: 50%;
+    background-image: url("../images/plus.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    transition: .5s ease;
+    z-index: 1;
+}
+.mett__linkk:hover ~ .card {
+    transform: rotateY(180deg);
+}
+.mett__linkk:hover {
+    transform: rotate(45deg);
+    background-color: #79C8C7;
+}
+.card {
+    position: relative;
+    margin-bottom: 50px;
+    transform-style: preserve-3d;
+    transition: .5s ease;
+    list-style: none;
+}
+.card__from{
+    width: 350px;
+    height: 253px;
+    background-color: #012F34;
+    backface-visibility: hidden;
+}
+.card__from::before {
+    content: "";
+    width: 229px;
+    height: 147px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 96px;
+    background-position: calc(54% + 50px) calc(-31% + 50px);
+    background-image: url(../images/nikita.png);
+}
+.card-img-two::before{
+    background-image: url(../images/cristian.png);
+}
+.card-img-three::before{
+    background-image: url(../images/cruz.png);
+}
+.card-img-four::before{
+    background-image: url(../images/drake.png);
+}
+.card-img-five::before{
+    background-image: url(../images/griffen.png);
+}
+.card-img-six::before{
+    background-image: url(../images/aden.png);
+}
+.card__from h3{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.card__from p{
+    font-style: italic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.card__back{
+    top: 0;
+    position: absolute;
+    height: 253px;
+    width: 350px;
+    background-color: #002529;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.card__back h3{
+    padding-top: 35px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.card__back p{
+    padding: 8px 48px 24px 48px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social-about__img {
+    padding-left: 145px;
+    text-decoration: none;
+    fill: #fff;
+}
+.social-about__img:nth-child(2){
+    padding-left: 16px;
+}
+
