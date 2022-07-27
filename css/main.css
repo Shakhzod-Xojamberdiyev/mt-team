@@ -323,3 +323,137 @@ body {
 }
 /*  Hero section end  */
 
+/* deliver section */
+
+.deliver{
+  background: #004047;
+  background-image: url("../images/two-section-ciricle.svg");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: calc(50% + 810px) calc(50% + 320px);
+
+}
+.deliver__main-title-box{
+  position: relative;
+  padding-top: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 950px;
+
+}
+.deliver__main-title-box::before{
+  position: absolute;
+  content: "";
+  top: -14%;
+  left: -28.5%;
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/two-section-rectangle.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.deliver__main-title{
+  font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.deliver__green-text{
+  font-weight: 700;
+  font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: #79C8C7;
+
+}
+.deliver__list{
+  display: flex;
+
+}
+.deliver__item{
+  position: relative;
+  background-image: url(../images/two-section-quoteos.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 0px) calc(50% - 165px);
+  width: 350px;
+  padding-top: 92px;
+  padding-bottom: 245px;
+  width: 350px;
+  list-style: none;
+
+}
+.deliver__item:nth-child(2){
+  width: 410px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.deliver__item:nth-child(1)::after{
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: 290px;
+  left: 140px;
+  background-image: url("../images/girl-one.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 62px;
+  height: 62px;
+}
+.deliver__item:nth-child(2)::after{
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: 290px;
+  left: 170px;
+  background-image: url("../images/girl-two.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 62px;
+  height: 62px;
+}
+.deliver__item:nth-child(3)::after{
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: 290px;
+  left: 140px;
+  background-image: url("../images/man.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 62px;
+  height: 62px;
+}
+
+.deliver__text{
+  font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.deliver__name{
+  padding-top: 14px;
+  display: block;
+  font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #79C8C7;
+}
+.deliver__italic{
+  display: block;
+  font-size: 13px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+
+
+/* deliver section end */
