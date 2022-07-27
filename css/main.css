@@ -204,7 +204,6 @@ body {
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.8;
-  
 }
 /* End bild section */
 
@@ -457,3 +456,113 @@ body {
 
 
 /* deliver section end */
+.ready {
+  background: #F67E7E;
+}
+.ready__title-wrapper{
+  position: relative;
+  padding: 76px 0;
+  width: 917px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.ready__title-wrapper::before{
+  position: absolute;
+  top: 27%;
+  left: -33%;
+  width: 200px;
+  height: 244px;
+  content: "";
+  background-image: url("../images/ready-to-ciricle.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.ready__title-wrapper h1{
+  margin-right: 260px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+}
+.ready__btn {
+  padding: 9px 33px;
+  border: 2px solid #012F34;
+  border-radius: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 28px;
+  color: #012F34;
+}
+.ready__btn:hover{
+  background: #012F34;
+  border: 2px solid #012F34;
+  color: #fff;
+}
+/* site footer */
+.site-footer {
+  background: #002529;
+}
+.site-footer__wrapper {
+  padding: 48px 0;
+  display: flex;
+}
+.site-footer__list {
+  list-style: none;
+}
+.site-footer__item { 
+  display: inline-block;
+}
+.site-footer__item a{
+  display: inline-block;
+  margin: 25px 40px 0 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+.site-footer__list-text{
+  width: 445px;
+  padding-right: 278px;
+  margin-left: 125px;
+}
+.site-footer__list-text p{
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.site-footer__link {
+  text-decoration: none;
+}
+.site-footer__link:hover{
+  color: #F67E7E;
+}
+.social {
+  margin-left: 93px;
+}
+.social__item{
+  margin-left: 121px;
+}
+.social__link {
+  padding-right: 16px;
+  text-decoration: none;
+  fill: #fff;
+}
+.social__link:hover{
+  fill: #F67E7E;
+}
+.social__text{
+  padding-top: 51px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+/* site end */
