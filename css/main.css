@@ -329,7 +329,7 @@ body {
   background-image: url("../images/two-section-ciricle.svg");
   background-repeat: no-repeat;
   background-size: 200px;
-  background-position: calc(50% + 810px) calc(50% + 320px);
+  background-position: calc(50% + 660px) calc(50% + 316px);
   
 }
 .deliver__main-title-box{
@@ -344,7 +344,7 @@ body {
   position: absolute;
   content: "";
   top: -14%;
-  left: -28.5%;
+  left: -30.5%;
   width: 200px;
   height: 200px;
   background-image: url("../images/two-section-rectangle.svg");
