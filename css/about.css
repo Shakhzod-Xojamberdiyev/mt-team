@@ -1,3 +1,104 @@
+
+
+
+/* start about section */
+.about{
+    position: relative;
+    background: #014E56;
+    
+}
+.about::before{
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 200px;
+    top: calc(50% - -4px);
+    left: calc(50% + 715px);
+    background-image: url("../images/about-hero-ciricle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.about__wrapper{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.about__text-box{
+    width: 730px;
+    
+}
+.about__text{
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.about__text::before{
+    padding-bottom: 40px;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    border-top: 4px solid #f67e7e;
+}
+/* end of about section */
+
+/* start clients section */
+
+.clients{
+    position: relative;
+    background: #012F34;
+    
+}
+.clients::before{
+    position: absolute;
+    top: calc(50% - 227px);
+    left: calc(50% - 765px);
+    width: 200px;
+    height: 200px;
+    content: "";
+    background-image: url("../images/about-some-crircle.svg");
+    background-repeat: no-repeat;
+}
+.clients__text-box{
+    padding-top: 140px;
+    width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.clients__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.clients__list{
+    padding-top: 70px;
+    padding-bottom: 151px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.clients__item{
+    list-style: none;
+    
+}
+
+/* end of clients section */
 .mett {
     padding-top: 140px;
     padding-bottom: 168px;
@@ -11,9 +112,6 @@
     text-align: center;
     color: #FFFFFF;
 }
-
-
-
 
 .mett__wrapper{
     padding-top: 64px;
@@ -131,4 +229,3 @@
 .social-about__img:nth-child(2){
     padding-left: 16px;
 }
-
