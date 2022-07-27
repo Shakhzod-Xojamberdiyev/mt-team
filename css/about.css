@@ -1,0 +1,50 @@
+.about{
+    position: relative;
+    background: #014E56;
+
+}
+.about::before{
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 200px;
+    top: calc(50% - -4px);
+    left: calc(50% + 715px);
+    background-image: url("../images/about-hero-ciricle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.about__wrapper{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.about__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.about__text-box{
+    width: 730px;
+
+}
+.about__text{
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.about__text::before{
+    padding-bottom: 40px;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    border-top: 4px solid #f67e7e;
+}
