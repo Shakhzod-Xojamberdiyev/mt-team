@@ -1,6 +1,4 @@
 
-
-
 /* start about section */
 .about{
     position: relative;
@@ -10,10 +8,10 @@
 .about::before{
     position: absolute;
     content: "";
-    width: 200px;
+    width: 100px;
     height: 200px;
     top: calc(50% - -4px);
-    left: calc(50% + 715px);
+    left: calc(50% + 659px);
     background-image: url("../images/about-hero-ciricle.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -54,57 +52,39 @@
 }
 /* end of about section */
 
-/* start clients section */
-
-.clients{
-    position: relative;
-    background: #012F34;
-    
-}
-.clients::before{
-    position: absolute;
-    top: calc(50% - 227px);
-    left: calc(50% - 765px);
-    width: 200px;
-    height: 200px;
-    content: "";
-    background-image: url("../images/about-some-crircle.svg");
-    background-repeat: no-repeat;
-}
-.clients__text-box{
-    padding-top: 140px;
-    width: 920px;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-.clients__title{
-    margin: 0;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
-    text-align: center;
-    color: #FFFFFF;
-}
-.clients__list{
-    padding-top: 70px;
-    padding-bottom: 151px;
-    display: flex;
-    justify-content: space-between;
-    
-}
-.clients__item{
-    list-style: none;
-    
-}
-
-/* end of clients section */
+/* Mett start */
 .mett {
+    position: relative;
     padding-top: 140px;
-    padding-bottom: 168px;
+    padding-bottom: 118px;
     background: #004047;
 }
-.mett__title-wrapper {
+.mett::before{
+    position: absolute;
+    top: -4px;
+    left: -52px;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/about-meet-ciricle.svg);
+    background-repeat: no-repeat;
+    background-size: 96px;
+    background-position:center;
+}
+.mett::after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 147px;
+    height: 100px;
+    background-image: url(../images/mett-ciricle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+.mett__title-wrapper{
+    position: relative;
 }
 .mett__title-wrapper h2{
     font-size: 48px;
@@ -112,7 +92,6 @@
     text-align: center;
     color: #FFFFFF;
 }
-
 .mett__wrapper{
     padding-top: 64px;
     display: flex;
@@ -124,11 +103,10 @@
 }
 .mett__linkk{
     position: absolute;
-    bottom: 16px;
+    bottom: 22px;
     left: 142px;
     width: 56px;
     height: 56px;
-    display:inline-block;
     background-color: #F67E7E;
     border-radius: 50%;
     background-image: url("../images/plus.svg");
@@ -138,7 +116,10 @@
     transition: .5s ease;
     z-index: 1;
 }
-.mett__linkk:hover ~ .card {
+/* .mett__linkk:hover ~ .card {
+    transform: rotateY(180deg);
+} */
+.rotaet{
     transform: rotateY(180deg);
 }
 .mett__linkk:hover {
@@ -154,7 +135,6 @@
 }
 .card__from{
     width: 350px;
-    height: 253px;
     background-color: #012F34;
     backface-visibility: hidden;
 }
@@ -190,6 +170,7 @@
     color: #79C8C7;
 }
 .card__from p{
+    padding-bottom: 56px;
     font-style: italic;
     font-size: 15px;
     line-height: 25px;
@@ -199,7 +180,6 @@
 .card__back{
     top: 0;
     position: absolute;
-    height: 253px;
     width: 350px;
     background-color: #002529;
     backface-visibility: hidden;
@@ -222,10 +202,57 @@
     color: #FFFFFF;
 }
 .social-about__img {
-    padding-left: 145px;
+    display: inline-block;
+    margin-left: 145px;
+    margin-bottom: 63px;
     text-decoration: none;
     fill: #fff;
 }
-.social-about__img:nth-child(2){
-    padding-left: 16px;
+.social-about__img:hover{
+    fill: #F67E7E;
 }
+.social-about__img:nth-child(2){
+    margin-left: 16px;
+}
+/* Mett finish*/
+
+/* start clients section */
+.clients{
+    position: relative;
+    background: #012F34;
+}
+.clients::before{
+    position: absolute;
+    top: calc(50% - 227px);
+    left: calc(50% - 765px);
+    width: 200px;
+    height: 200px;
+    content: "";
+    background-image: url("../images/about-some-crircle.svg");
+    background-repeat: no-repeat;
+}
+.clients__text-box{
+    padding-top: 140px;
+    width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.clients__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.clients__list{
+    padding-top: 70px;
+    padding-bottom: 151px;
+    display: flex;
+    justify-content: space-between;
+}
+.clients__item{
+    list-style: none;
+}
+
+/* end of clients section */
