@@ -39,9 +39,58 @@
     <!-- Site main start -->
     <main class="site-main">
         <!-- Hero section start -->
-        <section class="hero">
+        <section class="hero-contact contact">
+            <div class="container">
+                <div class="contact__wrapper">
+                    <div class="contact__title-wrapper">
+                        <h2>Contact</h2>
+                        <h3>Ask us about</h3>
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                                <p class="contact__text">The quality of our talent network</p>
+                            </li>
+                            <li class="contact__item">
+                                <p class="contact__text">Usage & implementation of our software</p>
+                            </li>
+                            <li class="contact__item">
+                                <p class="contact__text">How we help drive innovation</p>
+                            </li>
+                        </ul>
+                    </div>
 
 
+                    <div class="contact__form">
+                        <form action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off">
+                            <label>
+                                <input type="text" name="name" aria-label="your name" placeholder="Name" required
+                                    minlength="3">
+                                <span class="span">This field is required</span>
+                            </label>
+                            <label>
+                                <input type="email" name="email" aria-label="your email" placeholder="Email Address"
+                                    required minlength="3">
+                                <span>This field is required</span>
+                            </label>
+                            <label>
+                                <input type="text" name="company-name" aria-label="company Name"
+                                    placeholder="Company Name" required minlength="3">
+                                <span>This field is required</span>
+                            </label>
+                            <label>
+                                <input type="text" name="title" aria-label="your title" placeholder="Title" required
+                                    minlength="3">
+                                <span>This field is required</span>
+                            </label>
+                            <label>
+                                <input class="message" type="text" name="message" aria-label="your message" placeholder="Message"
+                                    required minlength="3">
+                                <span>This field is required</span>
+                            </label>
+                            <button class="submit-btn" type="submit">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Hero section finish -->
     </main>

@@ -61,8 +61,8 @@
 }
 .mett::before{
     position: absolute;
-    top: -4px;
-    left: -52px;
+    top: calc(50% + -498px);
+    left: calc(50% - 812px);
     content: "";
     width: 200px;
     height: 200px;
@@ -73,8 +73,8 @@
 }
 .mett::after{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: calc(50% + -494px);
+    right: calc(50% - 759px);
     content: "";
     width: 147px;
     height: 100px;
